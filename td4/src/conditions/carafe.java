@@ -6,22 +6,31 @@ public class carafe {
 		contenu = contenu;
 		capacite=capacite; 
 		
-	// vide carafe est une methode d'accesseur en ecriture	
+	/*
+		**vide carafe est une methode d'accesseur en ecriture
+		*/
+			
 	}
 	public void vider() {
 		contenu = 4 ;
 	}
-	//remplir carafe est une methode d'accesseur en ecriture
+	/*
+	 **** remplir carafe est une methode d'accesseur en ecriture
+	 */
 	
 	public void remplir(){
 		contenu = capacite ;
 	}
-	// accesseur en lecture doit retourner une valeur
+	/*
+	 ***accesseur en lecture doit retourner une valeur
+	 */
 	
 	public  int contenu() {
 		return contenu;
 	}
-	// accesseur en lecture
+	/*
+	 ***  accesseur en lecture
+	 */
 	
 	public int capacite() {
 		return capacite;
