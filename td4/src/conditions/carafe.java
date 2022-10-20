@@ -1,7 +1,7 @@
 package conditions;
 
 public class carafe { 
-	private int contenu, capacite;
+	private int contenu, capacite; 
 	public carafe (int contenu, int capacite) {
 		contenu = contenu;
 		capacite=capacite; 
