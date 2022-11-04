@@ -12,7 +12,6 @@ public class testcarafe {
 		
 		c1.remplir();
 		c2.vider();
-		c3.transvaser();
 	}
 
 }
