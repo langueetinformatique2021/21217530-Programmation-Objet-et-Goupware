@@ -17,7 +17,7 @@ public class carafe {
 	/*
 	 **** remplir carafe est une methode d'accesseur en ecriture
 	 */
-	
+
 	public void remplir(){
 		contenu = capacite ;
 	}
@@ -36,6 +36,9 @@ public class carafe {
 		return capacite;
 	}
 
-	
+	public void transvaser(carafe c ) {
+		
+		
+	}
 	
 }
